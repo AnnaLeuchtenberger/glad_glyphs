@@ -1,0 +1,101 @@
+
+body {
+  font-family: Arial;
+  margin: 42;
+  padding: 42
+
+}
+
+form {
+    /* Center the form on the page */
+    width: 500px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+  }
+  
+  #results {
+    width: 500px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+  }
+
+  #query {
+    font-weight: bold;
+
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    text-align: left;
+    width: 200px;
+    padding: 150px;
+    font-family: Arial
+  }
+  
+  input, 
+  textarea {
+    width: 100px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+  }
+  
+  input:focus, 
+  textarea:focus {
+    border-color: #000;
+  }
+  
+  textarea {
+    vertical-align: top;
+    height: 5em;
+  }
+  
+  .button {
+    font-size: 16px;
+    margin: 0 auto;
+
+  }
+
+  .sm {
+    font-size: 12px
+  }
+
+  .gry {
+    color: #999;
+  }
+  
+a {
+  color: black;
+}
+
+  .big {
+    font-size: 22px
+  }
+
+  .flex-grid {
+    display: flex;
+  }
+
+  [class*='col-'] {
+    float: left;
+  }
+
+  .col-2-3 {
+    width: 75%;
+    margin-left: 0;
+  }
+  
+  .col-1-3 {
+    width: 25%;
+  }
