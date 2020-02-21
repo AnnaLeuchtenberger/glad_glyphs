@@ -79,8 +79,9 @@ a {
   color: black;
 }
 
-  .big {
-    font-size: 22px
+  .main_page {
+    font-size: 22px;
+    text-decoration: none;
   }
 
   .flex-grid {

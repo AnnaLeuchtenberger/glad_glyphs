@@ -5,7 +5,7 @@ header = document.getElementById("header")
 /* “A meddil, emblim of honna, simbil of integiddy, mokk of estimm, and glory…” - George Herriman, "Krazy Kat" */ 
 
 const expressions = [
-    "euphonious expressions", 
+    "euphonious euphemisms", 
     "melodious mottoes", 
     "mellifluous maxims", 
     "cunning coinages", 
